@@ -15,7 +15,7 @@ const Index = () => {
         transition={{ duration: 0.5 }}
       >
         <Navbar />
-        <main className="max-w-7xl mx-auto">
+        <main>
           <HeroSection />
           <ServicesSection />
           <ProductsSection />
