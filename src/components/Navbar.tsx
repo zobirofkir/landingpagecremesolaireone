@@ -14,9 +14,9 @@ const Navbar = () => {
       const currentScrollY = window.scrollY;
 
       if (currentScrollY > lastScrollY && currentScrollY > 50) {
-        setShowNavbar(false); // Scroll down → hide
+        setShowNavbar(false);
       } else {
-        setShowNavbar(true); // Scroll up → show
+        setShowNavbar(true);
       }
 
       setLastScrollY(currentScrollY);
@@ -27,10 +27,9 @@ const Navbar = () => {
   }, [lastScrollY]);
 
   const navLinks = [
-    { name: "Product", path: "#" },
-    { name: "Features", path: "#features" },
-    { name: "Reviews", path: "#reviews" },
-    { name: "About Us", path: "#about" },
+    { name: "Home", path: "#" },
+    { name: "Abouts", path: "#abouts" },
+    { name: "Products", path: "#products" },
   ];
 
   return (
@@ -58,9 +57,9 @@ const Navbar = () => {
         {/* Desktop Navigation */}
         <div className="hidden md:flex items-center space-x-1">
           {navLinks.map((link) => (
-            <Link
+            <a
               key={link.name}
-              to={link.path}
+              href={link.path}
               className={`px-4 py-2 rounded-md text-sm font-medium transition-all duration-200 relative group ${
                 activeLink === link.name
                   ? "text-primary"
@@ -74,7 +73,7 @@ const Navbar = () => {
                   activeLink === link.name ? "scale-x-100" : ""
                 }`}
               ></span>
-            </Link>
+            </a>
           ))}
         </div>
 

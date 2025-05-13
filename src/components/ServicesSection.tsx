@@ -4,7 +4,7 @@ import { ShieldCheck, Sun, Droplet, Leaf, Clock, Award } from "lucide-react";
 
 const ServicesSection = () => {
   return (
-    <section className="py-20 px-4 md:px-8 lg:px-12 bg-gradient-to-b from-white to-amber-50/30">
+    <section className="py-20 px-4 md:px-8 lg:px-12 bg-gradient-to-b from-white to-amber-50/30" id="abouts">
       <div className="max-w-7xl mx-auto">
         <motion.div
           className="text-center mb-16"

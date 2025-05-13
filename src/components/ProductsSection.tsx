@@ -27,7 +27,7 @@ const ProductsSection = () => {
   ];
 
   return (
-    <section className="py-20 px-4 md:px-8 lg:px-12 bg-gradient-to-b from-amber-50/30 to-white">
+    <section className="py-20 px-4 md:px-8 lg:px-12 bg-gradient-to-b from-amber-50/30 to-white" id="products">
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row md:items-end md:justify-between mb-12">
           <motion.div
