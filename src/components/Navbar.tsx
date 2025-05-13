@@ -27,9 +27,9 @@ const Navbar = () => {
   }, [lastScrollY]);
 
   const navLinks = [
-    { name: "Home", path: "#" },
-    { name: "Abouts", path: "#abouts" },
-    { name: "Products", path: "#products" },
+    { name: "Home", path: "/" },
+    { name: "Abouts", path: "/#abouts" },
+    { name: "Products", path: "/products" },
   ];
 
   return (
@@ -85,9 +85,11 @@ const Navbar = () => {
           >
             <Menu size={20} />
           </button>
-          <button className="hidden md:flex items-center gap-2 bg-primary hover:bg-primary/90 text-white px-4 py-2 rounded-full text-sm font-medium transition-colors">
-            Get Started
-          </button>
+          <a href="/products">
+              <button className="hidden md:flex items-center gap-2 bg-primary hover:bg-primary/90 text-white px-4 py-2 rounded-full text-sm font-medium transition-colors">
+                Get Started
+              </button>
+          </a>
         </div>
       </motion.nav>
 
@@ -135,9 +137,12 @@ const Navbar = () => {
               {link.name}
             </Link>
           ))}
-          <button className="mt-4 bg-primary hover:bg-primary/90 text-white px-4 py-3 rounded-md text-base font-medium transition-colors">
-            Get Started
-          </button>
+
+          <a href="/products">
+            <button className="mt-4 bg-primary hover:bg-primary/90 text-white px-4 py-3 rounded-md text-base font-medium transition-colors">
+              Get Started
+            </button>
+          </a>
         </div>
         
       </motion.div>
