@@ -7,7 +7,7 @@ const ProductsSection = () => {
   const sunscreenProducts = [
     {
       title: "Ultra Defense SPF 50+",
-      image: "https://images.unsplash.com/photo-1556229174-5e42a09e45c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+      image: "https://kreme-paris.com/cdn/shop/articles/creme-solaire-anti-taches-routine-beaute_1920x.jpg?v=1716810733",
       description: "Our highest protection formula with advanced UVA/UVB filters. Water-resistant and enriched with antioxidants to protect against environmental damage while keeping skin hydrated.",
       delay: 0.1
     },
@@ -20,7 +20,7 @@ const ProductsSection = () => {
     },
     {
       title: "Sport Active SPF 50",
-      image: "https://images.unsplash.com/photo-1607697552816-c62e2e797e8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+      image: "https://cdn.futura-sciences.com/cdn-cgi/image/width=1024,quality=50,format=auto/sources/images/choisir-creme-solaire.jpg",
       description: "Extra water and sweat resistant formula designed for active lifestyles. Provides up to 80 minutes of water resistance and won't run into eyes. Perfect for sports and outdoor activities.",
       delay: 0.3
     }

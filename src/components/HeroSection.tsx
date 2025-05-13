@@ -138,7 +138,7 @@ const HeroSection = () => {
               }}
             >
               <img 
-                src="https://images.unsplash.com/photo-1556229174-5e42a09e45c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" 
+                src="https://media.istockphoto.com/id/491581184/fr/photo/p%C3%A8re-application-de-la-cr%C3%A8me-de-la-cr%C3%A8me-solaire-sur-l%C3%A9paule-filles.jpg?s=612x612&w=0&k=20&c=hgTkJ_J4V64AYxTVuKHJ7XsF755JG-fscZQbLbNcj_o=" 
                 alt="Crème Solaire Sunscreen" 
                 className="relative z-10 max-h-[550px] object-contain drop-shadow-2xl"
               />

@@ -20,7 +20,7 @@ const ProductCard = ({ title, image, description, delay = 0, reversed = false }:
       viewport={{ once: true }}
     >
       <div className="w-full md:w-1/2 p-6 flex items-center justify-center bg-gray-50">
-        <img src={image} alt={title} className="max-h-60 object-contain" />
+        <img src={image} alt={title} className="object-contain rounded-md" />
       </div>
       
       <div className="w-full md:w-1/2 p-6 flex flex-col justify-center">
