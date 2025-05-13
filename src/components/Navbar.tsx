@@ -79,18 +79,6 @@ const Navbar = () => {
 
         {/* Action Buttons */}
         <div className="flex items-center gap-2 md:gap-4">
-          <button className="w-9 h-9 rounded-full flex items-center justify-center text-foreground/70 hover:bg-muted transition-colors">
-            <Search size={18} />
-          </button>
-          <button className="w-9 h-9 rounded-full flex items-center justify-center text-foreground/70 hover:bg-muted transition-colors relative">
-            <ShoppingCart size={18} />
-            <span className="absolute -top-1 -right-1 w-4 h-4 bg-primary rounded-full text-[10px] text-white flex items-center justify-center">
-              2
-            </span>
-          </button>
-          <button className="w-9 h-9 rounded-full flex items-center justify-center text-foreground/70 hover:bg-muted transition-colors">
-            <UserRound size={18} />
-          </button>
           <button
             className="md:hidden w-9 h-9 rounded-full flex items-center justify-center text-foreground/70 hover:bg-muted transition-colors"
             onClick={() => setMobileMenuOpen(true)}
@@ -152,23 +140,6 @@ const Navbar = () => {
           </button>
         </div>
         
-        <div className="mt-auto flex justify-between pt-8 border-t border-border">
-          <button className="flex items-center gap-2 text-foreground/70">
-            <Search size={18} />
-            <span className="text-sm">Search</span>
-          </button>
-          <button className="flex items-center gap-2 text-foreground/70 relative">
-            <ShoppingCart size={18} />
-            <span className="text-sm">Cart</span>
-            <span className="absolute -top-1 -right-1 w-4 h-4 bg-primary rounded-full text-[10px] text-white flex items-center justify-center">
-              2
-            </span>
-          </button>
-          <button className="flex items-center gap-2 text-foreground/70">
-            <UserRound size={18} />
-            <span className="text-sm">Account</span>
-          </button>
-        </div>
       </motion.div>
     </>
   );

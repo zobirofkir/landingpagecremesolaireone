@@ -35,7 +35,7 @@ const ProductCard = ({
       transition={{ duration: 0.5, delay }}
       viewport={{ once: true }}
     >
-      <div className={`w-full md:w-1/2 p-8 flex items-center justify-center bg-gradient-to-br ${reversed ? 'from-amber-50 to-amber-100/30' : 'from-amber-100/30 to-amber-50'} relative`}>
+      <div className={`w-full md:w-1/2 p-8 flex items-center justify-center bg-gradient-to-br ${reversed ? 'from-amber-50 to-amber-100/30' : 'from-amber-100/30 to-amber-50'} relative`} id="products">
         {bestSeller && (
           <div className="absolute top-6 left-6">
             <Badge className="bg-amber-500 text-white hover:bg-amber-600 px-3 py-1 rounded-full font-medium">
